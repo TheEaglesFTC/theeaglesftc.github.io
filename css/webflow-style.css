@@ -2110,7 +2110,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-embed-youtubevideo {
-  background-image: url("../images/youtube-placeholder.2b05e7d68d.svg");
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg");
   background-position: 50%;
   background-size: cover;
   width: 100%;
@@ -2678,6 +2678,7 @@ img {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
+  grid-auto-flow: row;
   display: grid;
 }
 
@@ -3000,6 +3001,10 @@ img {
     font-size: 4.6vw;
   }
 
+  .u-absolute-full.footer {
+    object-position: 100% 50%;
+  }
+
   .content_image {
     position: relative;
   }
@@ -3212,9 +3217,7 @@ img {
   }
 
   .footer_section {
-    background-position: 0 0, 90% 80%;
-    background-repeat: repeat, repeat-x;
-    background-size: auto, auto;
+    background-image: radial-gradient(circle farthest-side at 0%, #4c71adcc, #17355100 50%);
   }
 
   .u-container {
