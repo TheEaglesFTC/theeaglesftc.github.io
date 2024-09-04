@@ -2069,6 +2069,7 @@ textarea.w-input, textarea.w-select {
   --color--text-sub: var(--primitive-black--60);
   --color--muted-invert: var(--primitive-white--50);
   --primitive-black--15: #08090a26;
+  --color--background-soft: var(--primitive-black--4);
   --primitive-white--70: #ffffffb3;
   --primitive-white--60: #fff9;
   --primitive-white--50: #ffffff80;
@@ -2085,7 +2086,6 @@ textarea.w-input, textarea.w-select {
   --color--muted: var(--primitive-black--50);
   --color--border-solid: var(--primitive-black--100);
   --color--border-soft: var(--primitive-black--15);
-  --color--background-soft: var(--primitive-black--4);
   --dark--background-main: var(--primitive-black--100);
   --dark--background-invert: var(--primitive-white--100);
   --dark--text-main: var(--primitive-white--100);
@@ -2110,7 +2110,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-embed-youtubevideo {
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg");
+  background-image: url("../images/youtube-placeholder.2b05e7d68d.svg");
   background-position: 50%;
   background-size: cover;
   width: 100%;
@@ -2883,6 +2883,10 @@ img {
 
 .menu_link:hover {
   font-weight: 700;
+}
+
+.theme-asset.u-absolute-full {
+  background-color: var(--color--background-soft);
 }
 
 @media screen and (max-width: 991px) {
